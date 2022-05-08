@@ -2,7 +2,7 @@ const crypto = require('crypto');
 const secp256k1 = require('secp256k1');
 // or require('secp256k1/elliptic')
 //   if you want to use pure js implementation in node
-
+//test comment to github reload
 // generate message to sign
 // message should have 32-byte length, if you have some other length you can hash message
 // for example `msg = sha256(rawMessage)`
